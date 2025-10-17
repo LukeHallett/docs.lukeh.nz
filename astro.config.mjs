@@ -11,7 +11,7 @@ export default defineConfig({
                 backlinks: false,
                 graph: false,
             })],
-			title: 'lukeh.nz',
+			title: 'docs.lukeh.nz',
 			sidebar: [
                 {
                     label: 'Home',
