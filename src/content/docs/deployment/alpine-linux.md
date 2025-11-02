@@ -31,3 +31,9 @@ Finally, start the service manually:
 ```bash
 service docker start
 ```
+
+## Enable NTP Server
+```bash
+rc-update add ntpd
+service ntpd start
+```

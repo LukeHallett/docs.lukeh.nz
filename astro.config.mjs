@@ -26,6 +26,12 @@ export default defineConfig({
                   ],
               },
               {
+                  label: 'Linux',
+                  items: [
+                      { label: 'Docker', slug: 'linux/docker' }
+                  ]
+              },
+              {
                   label: 'Programming',
                   items: [
                       { label: 'Laravel', slug: 'programming/laravel' },
@@ -37,6 +43,12 @@ export default defineConfig({
                       { label: 'macOS', slug: 'general/macos' },
                   ],
               },
+              {
+                  label: 'Homelab',
+                  items: [
+                      { label: 'Port Allocations', slug: 'homelab/port-allocations' }
+                  ]
+              }
           ],
       }),
 	]
